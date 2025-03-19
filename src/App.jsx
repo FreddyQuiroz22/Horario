@@ -14,7 +14,7 @@ const Registro = () => {
 
       console.log(`Hora actual: ${horaActual}`);
 
-      const horaLimiteEntrada = 10;
+      const horaLimiteEntrada = 18;
       if (horaActual >= horaLimiteEntrada || horaActual < 6) {
         setModoSalida(true);
         console.log("Modo: Salida");
